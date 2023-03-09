@@ -1,17 +1,17 @@
 import React from "react";
-import Annoucne from "../components/Annoucne";
+import Announce from "../components/Announce";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import NewsLetter from "../components/NewsLetter";
+import Newsletter from "../components/Newsletter";
 import Products from "../components/Products";
 
 const CategoryPage = () => {
   return (
     <div>
-      <Annoucne />
+      <Announce />
       <Navbar />
       <div className="flex flex-col p-5">
-        <h1 className="text-[30px]">Men's</h1>
+        <h1 className="text-[30px]">Men's Cloth</h1>
         <div className="flex items-center justify-between mt-3">
           <div className="flex mobile:flex-col">
             <p>Filter by</p>
@@ -39,14 +39,14 @@ const CategoryPage = () => {
             <select className="ml-3 border-2 border-silver">
               <option selected>Newest (first)</option>
               <option>Oldest (first)</option>
-              <option>Price (asc)</option>
-              <option>Price (desc)</option>
+              <option>Price (Asc)</option>
+              <option>Price (Desc)</option>
             </select>
           </div>
         </div>
       </div>
       <Products />
-      <NewsLetter />
+      <Newsletter />
       <Footer />
     </div>
   );
