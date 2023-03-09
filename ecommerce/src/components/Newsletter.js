@@ -1,5 +1,5 @@
 import React from "react";
-import SendIcon from '@mui/icons-material/Send';
+import SendIcon from "@mui/icons-material/Send";
 
 const NewsLetter = () => {
   return (

@@ -19,11 +19,11 @@ const Product = ({ item }) => {
   }
   return (
     <div
-      className="flex items-center justify-center flex-1 min-w-[280px] min-h-[350px] m-2 overflow-hidden rounded-md shadow-lg relative"
+      className="flex items-center justify-center flex-1 min-w-[250px] min-h-[350px] m-2 overflow-hidden rounded-md shadow-lg mt-2 relative"
       onMouseEnter={handleHoverEnter}
       onMouseLeave={handleHoverExit}
     >
-      <img src={item.src} alt="product" />
+      <img src={item.src} alt="product_image" />
       <div
         className={
           `flex items-center justify-center absolute w-[100%] h-[100%] ease-in duration-100` +
